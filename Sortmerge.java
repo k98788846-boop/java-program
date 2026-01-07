@@ -11,20 +11,20 @@ public class Sortmerge{
         for(int i=0;i<n2;i++)
             b[i]=sc.nextInt();
         int c[]=new int[n1+n2];
-        for(int i=0;i<n1+n2;i++){
+        for(int i=0;i<c.length;i++){
             c[i]=a[i];}
         for(int i=0;i<n2;i++){
            c[n1+i]=b[i];
         }
-        for(int i=0;i<n1+n2;i++){
-            for(int j=0;j<n1+n2;j++){
-                if(c[i]>c[j]){
-                    int temp=c[i];
-                    c[i]=c[i+1];
-                    c[i+1]=temp;
+        for(int i=0;i<c.length;i++){
+            for(int j=0;j<c.length;j++){
+                if(c[j]>c[j+1]){
+                    int temp=c[j];
+                    c[j]=c[j+1];
+                    c[j+1]=temp;
                 }
         }}
-        for(int i=0;i<n1+n2;i++){
+        for(int i=0;i<c.length;i++){
             System.out.print(c[i]+" ");
         }
 
