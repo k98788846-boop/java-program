@@ -7,11 +7,11 @@ public class Antidiagonal{
         for(int i=0;i<r;i++){
             for(int j=0;j<r;j++){
                 a[i][j]=sc.nextInt();
-            }
-        }for(int i=0;i<r;i++){
-            for(int j=0;j)
-        
+        } }
+        for(int j=0;j<r;j++){
+            System.out.print(a[j][r-1-j]+" ");
         }
-        }
+        sc.close();
     }
+}
 
