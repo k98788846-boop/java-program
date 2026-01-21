@@ -7,7 +7,7 @@ public class Neonnumber{
         for(int i=1;i<=2;i++){
             sq=sq*n;
         }
-        while(sq>0){
+        while(sq>0){// 9 i/p 9^2=81 then 1+8=9 so neon number//    
             int d=sq%10;
             sum+=d;
             sq/=10;
