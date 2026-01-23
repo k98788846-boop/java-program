@@ -14,7 +14,7 @@ public class Sorteachcolum {
                 if(a[j][i]>a[j+1][i]){
                     int temp=a[j][i];
                     a[j][i]=a[j+1][i];
-                    a[j+1][i]=temp;
+                    a[j+1][i]=temp;//column sort//
                 }
             }
         }
