@@ -20,7 +20,7 @@ public class Sorteachrow {
     }
     for(int i=0;i<r;i++){
         for(int j=0;j<r;j++){
-            System.out.print(a[i][j]);//in ascending rowvise//
+            System.out.print(a[i][j]);//in ascending rowvise.//
         }
     }
     sc.close();
