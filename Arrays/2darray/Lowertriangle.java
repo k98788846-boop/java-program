@@ -11,7 +11,7 @@ public class Lowertriangle {
     }
     for(int i=0;i<r;i++){
         for(int j=0;j<r;j++){// elements above the diagonal i<j ,daigonal i=j,below diagonal i>j//
-            if(i>j){
+            if(i<j){
                a[i][j]=0; 
             }
         }
