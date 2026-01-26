@@ -18,10 +18,18 @@ public class Rotate90 {
                 }
             }
         }
+        for(int i=0;i<r;i++){// s1:take transverse then reverse each row//
+            for(int j=0;j<r/2;j++){
+                int temp=a[i][j];
+                a[i][j]=a[i][r-1-j];
+                a[i][r-1-j]=temp;
+            }
+        }
         for(int i=0;i<r;i++){
             for(int j=0;j<r;j++){
-                System.out.print(a[i][j]);
+                System.out.print(a[i][j]+" ");
             }
+            System.out.println();
         }
         sc.close();
 
