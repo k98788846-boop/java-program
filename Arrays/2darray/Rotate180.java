@@ -16,7 +16,7 @@ public class Rotate180 {
               a[i][j]=a[r-1-i][j];
               a[r-1-i][j]=temp;// s1: interchange rows .s2;reverse row wise//
             }
-        }
+        }// reverse of entire array//
         for(int i=0;i<r;i++){
             for(int j=0;j<r/2;j++){
                 int temp =a[i][j];
@@ -26,8 +26,9 @@ public class Rotate180 {
         }
         for(int i=0;i<r;i++){
             for(int j=0;j<r;j++){
-                System.out.print(a[i][j]);
+                System.out.print(a[i][j]+" ");
             }
+            System.out.println();
         }
         sc.close();
     }
