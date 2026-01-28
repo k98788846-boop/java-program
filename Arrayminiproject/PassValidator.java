@@ -28,7 +28,7 @@ public static void main(String[] args){
         if(ch>=0 && ch<=9){
             digitin=true;
         }
-        if(ch>=33||ch<=47||ch>=58||ch<=64||ch>=91||ch<=96||ch>=123||ch<=126){
+        if((ch>=33 && ch<=47)||(ch>=58 && ch<=64)||(ch>=91 && ch<=96)||(ch>=123 && ch<=126)){
             special=true;
         }
     }
