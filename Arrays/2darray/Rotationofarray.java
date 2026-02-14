@@ -4,7 +4,7 @@ public static void main(String[] args){
     Scanner sc=new Scanner(System.in);
     int r=sc.nextInt();
     int a[][]=new int[r][r];
-    System.out.print("enter numbr of rotation");
+    System.out.print("enter number of rotation");
     int n=sc.nextInt();
     for(int i=0;i<r;i++){
         for(int j=0;j<r;j++){
