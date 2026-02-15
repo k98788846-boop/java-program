@@ -1,4 +1,4 @@
-package Arrays.Recursive;
+package Recursion;
 import java.util.Scanner;
 public class Triange {
 public static void main(String[] args){

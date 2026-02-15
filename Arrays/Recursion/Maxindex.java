@@ -1,7 +1,7 @@
-package Arrays.Recursive;
+package Recursion;
 
 import java.util.Scanner;
-public class Indexofmax {
+public class Maxindex {
     public  static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int a[]={1,2,3,6,4};
